@@ -1,82 +1,106 @@
 {
   "en": {
-    "placeholder": "Paste or type your text here...",
+    "title": "Word Counter",
+    "subtitle": "Every letter, considered.",
+    "placeholder": "Begin typing your manuscript here…",
     "words": "Words",
     "characters": "Characters",
-    "characters_no_spaces": "Characters (no spaces)",
+    "characters_no_spaces": "No spaces",
     "sentences": "Sentences",
     "paragraphs": "Paragraphs",
-    "reading_time": "Reading time",
-    "reading_time_minutes": "min"
+    "reading_time": "Reading",
+    "reading_time_minutes": "min",
+    "footer_quote": "Writing is thinking made visible."
   },
   "ja": {
-    "placeholder": "ここにテキストを貼り付けるか入力...",
+    "title": "文字数カウンター",
+    "subtitle": "言葉のひと粒、ひと粒を。",
+    "placeholder": "ここに文章を綴ってください…",
     "words": "単語数",
     "characters": "文字数",
-    "characters_no_spaces": "文字数(空白除く)",
+    "characters_no_spaces": "空白を除く",
     "sentences": "文の数",
-    "paragraphs": "段落数",
+    "paragraphs": "段落",
     "reading_time": "読了時間",
-    "reading_time_minutes": "分"
+    "reading_time_minutes": "分",
+    "footer_quote": "書くこととは、思考に姿を与えること。"
   },
   "es": {
-    "placeholder": "Pega o escribe tu texto aquí...",
+    "title": "Contador de palabras",
+    "subtitle": "Cada letra, considerada.",
+    "placeholder": "Comienza a escribir tu manuscrito aquí…",
     "words": "Palabras",
     "characters": "Caracteres",
-    "characters_no_spaces": "Caracteres (sin espacios)",
+    "characters_no_spaces": "Sin espacios",
     "sentences": "Oraciones",
     "paragraphs": "Párrafos",
-    "reading_time": "Tiempo de lectura",
-    "reading_time_minutes": "min"
+    "reading_time": "Lectura",
+    "reading_time_minutes": "min",
+    "footer_quote": "Escribir es hacer visible el pensamiento."
   },
   "pt-BR": {
-    "placeholder": "Cole ou digite seu texto aqui...",
+    "title": "Contador de palavras",
+    "subtitle": "Cada letra, considerada.",
+    "placeholder": "Comece a escrever seu manuscrito aqui…",
     "words": "Palavras",
     "characters": "Caracteres",
-    "characters_no_spaces": "Caracteres (sem espaços)",
+    "characters_no_spaces": "Sem espaços",
     "sentences": "Frases",
     "paragraphs": "Parágrafos",
-    "reading_time": "Tempo de leitura",
-    "reading_time_minutes": "min"
+    "reading_time": "Leitura",
+    "reading_time_minutes": "min",
+    "footer_quote": "Escrever é tornar o pensamento visível."
   },
   "fr": {
-    "placeholder": "Collez ou tapez votre texte ici...",
+    "title": "Compteur de mots",
+    "subtitle": "Chaque lettre, considérée.",
+    "placeholder": "Commencez à écrire votre manuscrit ici…",
     "words": "Mots",
     "characters": "Caractères",
-    "characters_no_spaces": "Caractères (sans espaces)",
+    "characters_no_spaces": "Sans espaces",
     "sentences": "Phrases",
     "paragraphs": "Paragraphes",
-    "reading_time": "Temps de lecture",
-    "reading_time_minutes": "min"
+    "reading_time": "Lecture",
+    "reading_time_minutes": "min",
+    "footer_quote": "Écrire, c'est rendre la pensée visible."
   },
   "de": {
-    "placeholder": "Text hier einfügen oder eingeben...",
+    "title": "Wortzähler",
+    "subtitle": "Jeder Buchstabe, bedacht.",
+    "placeholder": "Beginne hier dein Manuskript zu schreiben…",
     "words": "Wörter",
     "characters": "Zeichen",
-    "characters_no_spaces": "Zeichen (ohne Leerzeichen)",
+    "characters_no_spaces": "Ohne Leerzeichen",
     "sentences": "Sätze",
     "paragraphs": "Absätze",
     "reading_time": "Lesezeit",
-    "reading_time_minutes": "Min."
+    "reading_time_minutes": "Min.",
+    "footer_quote": "Schreiben heißt Denken sichtbar machen."
   },
   "ko": {
-    "placeholder": "텍스트를 붙여넣거나 입력하세요...",
+    "title": "글자 수 세기",
+    "subtitle": "한 글자, 한 글자를 정성껏.",
+    "placeholder": "여기에 글을 써 보세요…",
     "words": "단어",
     "characters": "글자",
-    "characters_no_spaces": "글자 (공백 제외)",
+    "characters_no_spaces": "공백 제외",
     "sentences": "문장",
     "paragraphs": "단락",
-    "reading_time": "읽는 시간",
-    "reading_time_minutes": "분"
+    "reading_time": "읽기",
+    "reading_time_minutes": "분",
+    "footer_quote": "쓴다는 것은 생각을 보이게 하는 일."
   },
   "zh-CN": {
-    "placeholder": "在此粘贴或输入文本...",
+    "title": "字数统计",
+    "subtitle": "每一字,皆有分量。",
+    "placeholder": "在此开始书写你的文字…",
     "words": "单词",
     "characters": "字符",
-    "characters_no_spaces": "字符 (不含空格)",
+    "characters_no_spaces": "不含空格",
     "sentences": "句子",
     "paragraphs": "段落",
-    "reading_time": "阅读时间",
-    "reading_time_minutes": "分钟"
+    "reading_time": "阅读",
+    "reading_time_minutes": "分钟",
+    "footer_quote": "写作,是让思想现形。"
   }
 }
