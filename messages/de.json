@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "Alle deine alltäglichen Tools an einem Ort",
+    "description": "Kostenlose Online-Tools für den Alltag — Rechner, Konverter, Generatoren und mehr. Keine Anmeldung, keine Installation, einfach loslegen."
+  },
+  "nav": {
+    "home": "Startseite",
+    "tools": "Tools",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Kostenlose Tools für deinen Alltag",
+    "hero_subtitle": "Rechner, Konverter, Generatoren — alles an einem Ort, keine Anmeldung erforderlich.",
+    "section_popular": "Beliebte Tools",
+    "section_categories": "Nach Kategorie durchsuchen",
+    "section_new": "Neu hinzugefügt",
+    "cta_browse_all": "Alle Tools anzeigen"
+  },
+  "categories": {
+    "calculators": "Rechner",
+    "converters": "Konverter",
+    "generators": "Generatoren",
+    "text": "Text-Tools",
+    "image": "Bild-Tools",
+    "health": "Gesundheit & Lifestyle",
+    "finance": "Finanzen",
+    "developer": "Entwickler-Tools"
+  },
+  "common": {
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "reset": "Zurücksetzen",
+    "calculate": "Berechnen",
+    "result": "Ergebnis",
+    "loading": "Lädt...",
+    "share": "Teilen",
+    "download": "Herunterladen",
+    "save": "Speichern",
+    "language": "Sprache"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "Mit ♡ gemacht"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "把每日工具放在一处",
+    "description": "免费在线工具集合 — 计算器、转换器、生成器等。无需注册，无需安装，开箱即用。"
+  },
+  "nav": {
+    "home": "首页",
+    "tools": "工具",
+    "about": "关于",
+    "contact": "联系",
+    "privacy": "隐私",
+    "blog": "博客"
+  },
+  "home": {
+    "hero_title": "适合日常的免费工具",
+    "hero_subtitle": "计算器、转换器、生成器 — 集中一处，无需注册。",
+    "section_popular": "热门工具",
+    "section_categories": "按分类浏览",
+    "section_new": "最近添加",
+    "cta_browse_all": "查看所有工具"
+  },
+  "categories": {
+    "calculators": "计算器",
+    "converters": "转换器",
+    "generators": "生成器",
+    "text": "文本工具",
+    "image": "图像工具",
+    "health": "健康与生活",
+    "finance": "财务",
+    "developer": "开发者工具"
+  },
+  "common": {
+    "copy": "复制",
+    "copied": "已复制!",
+    "reset": "重置",
+    "calculate": "计算",
+    "result": "结果",
+    "loading": "加载中...",
+    "share": "分享",
+    "download": "下载",
+    "save": "保存",
+    "language": "语言"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "用 ♡ 制作"
+  }
+}

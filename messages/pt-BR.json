@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "Todas as suas ferramentas do dia a dia em um só lugar",
+    "description": "Ferramentas online gratuitas para tarefas do dia a dia: calculadoras, conversores, geradores e muito mais. Sem cadastro, sem instalação, é só usar."
+  },
+  "nav": {
+    "home": "Início",
+    "tools": "Ferramentas",
+    "about": "Sobre",
+    "contact": "Contato",
+    "privacy": "Privacidade",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Ferramentas gratuitas para o seu dia a dia",
+    "hero_subtitle": "Calculadoras, conversores, geradores — tudo em um só lugar, sem cadastro.",
+    "section_popular": "Ferramentas populares",
+    "section_categories": "Navegar por categoria",
+    "section_new": "Adicionadas recentemente",
+    "cta_browse_all": "Ver todas as ferramentas"
+  },
+  "categories": {
+    "calculators": "Calculadoras",
+    "converters": "Conversores",
+    "generators": "Geradores",
+    "text": "Ferramentas de texto",
+    "image": "Ferramentas de imagem",
+    "health": "Saúde e estilo de vida",
+    "finance": "Finanças",
+    "developer": "Ferramentas para devs"
+  },
+  "common": {
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "reset": "Redefinir",
+    "calculate": "Calcular",
+    "result": "Resultado",
+    "loading": "Carregando...",
+    "share": "Compartilhar",
+    "download": "Baixar",
+    "save": "Salvar",
+    "language": "Idioma"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "Feito com ♡"
+  }
+}

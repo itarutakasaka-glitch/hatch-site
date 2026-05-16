@@ -1,0 +1,90 @@
+{
+  "en": {
+    "input_label": "Text or URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "Size",
+    "error_correction_label": "Error correction",
+    "level_low": "Low (~7%)",
+    "level_medium": "Medium (~15%)",
+    "level_quartile": "Quartile (~25%)",
+    "level_high": "High (~30%)",
+    "download_png": "Download PNG"
+  },
+  "ja": {
+    "input_label": "テキストまたはURL",
+    "input_placeholder": "https://example.com",
+    "size_label": "サイズ",
+    "error_correction_label": "エラー訂正レベル",
+    "level_low": "低 (~7%)",
+    "level_medium": "中 (~15%)",
+    "level_quartile": "高 (~25%)",
+    "level_high": "最高 (~30%)",
+    "download_png": "PNGダウンロード"
+  },
+  "es": {
+    "input_label": "Texto o URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "Tamaño",
+    "error_correction_label": "Corrección de errores",
+    "level_low": "Baja (~7%)",
+    "level_medium": "Media (~15%)",
+    "level_quartile": "Cuartil (~25%)",
+    "level_high": "Alta (~30%)",
+    "download_png": "Descargar PNG"
+  },
+  "pt-BR": {
+    "input_label": "Texto ou URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "Tamanho",
+    "error_correction_label": "Correção de erros",
+    "level_low": "Baixa (~7%)",
+    "level_medium": "Média (~15%)",
+    "level_quartile": "Quartil (~25%)",
+    "level_high": "Alta (~30%)",
+    "download_png": "Baixar PNG"
+  },
+  "fr": {
+    "input_label": "Texte ou URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "Taille",
+    "error_correction_label": "Correction d'erreur",
+    "level_low": "Faible (~7%)",
+    "level_medium": "Moyen (~15%)",
+    "level_quartile": "Quartile (~25%)",
+    "level_high": "Élevé (~30%)",
+    "download_png": "Télécharger PNG"
+  },
+  "de": {
+    "input_label": "Text oder URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "Größe",
+    "error_correction_label": "Fehlerkorrektur",
+    "level_low": "Niedrig (~7%)",
+    "level_medium": "Mittel (~15%)",
+    "level_quartile": "Hoch (~25%)",
+    "level_high": "Sehr hoch (~30%)",
+    "download_png": "PNG herunterladen"
+  },
+  "ko": {
+    "input_label": "텍스트 또는 URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "크기",
+    "error_correction_label": "오류 정정 수준",
+    "level_low": "낮음 (~7%)",
+    "level_medium": "중간 (~15%)",
+    "level_quartile": "높음 (~25%)",
+    "level_high": "최고 (~30%)",
+    "download_png": "PNG 다운로드"
+  },
+  "zh-CN": {
+    "input_label": "文本或 URL",
+    "input_placeholder": "https://example.com",
+    "size_label": "尺寸",
+    "error_correction_label": "纠错级别",
+    "level_low": "低 (~7%)",
+    "level_medium": "中 (~15%)",
+    "level_quartile": "高 (~25%)",
+    "level_high": "最高 (~30%)",
+    "download_png": "下载 PNG"
+  }
+}

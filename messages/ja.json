@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "毎日使える便利ツール集",
+    "description": "計算機・変換ツール・ジェネレーターなど、日常で使えるオンラインツールを無料で提供。登録不要、インストール不要、開いてすぐ使える。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "tools": "ツール",
+    "about": "運営者情報",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシー",
+    "blog": "ブログ"
+  },
+  "home": {
+    "hero_title": "毎日使える便利ツール集",
+    "hero_subtitle": "計算機・変換・ジェネレーターを集約。登録なしですぐ使えます。",
+    "section_popular": "人気のツール",
+    "section_categories": "カテゴリから探す",
+    "section_new": "新着ツール",
+    "cta_browse_all": "全てのツールを見る"
+  },
+  "categories": {
+    "calculators": "計算機",
+    "converters": "変換ツール",
+    "generators": "ジェネレーター",
+    "text": "テキストツール",
+    "image": "画像ツール",
+    "health": "健康・ライフスタイル",
+    "finance": "お金・金融",
+    "developer": "開発者向け"
+  },
+  "common": {
+    "copy": "コピー",
+    "copied": "コピーしました!",
+    "reset": "リセット",
+    "calculate": "計算する",
+    "result": "結果",
+    "loading": "読み込み中...",
+    "share": "シェア",
+    "download": "ダウンロード",
+    "save": "保存",
+    "language": "言語"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "Made with ♡"
+  }
+}

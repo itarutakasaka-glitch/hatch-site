@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "매일 쓰는 도구를 한 곳에",
+    "description": "일상 작업에 쓰는 무료 온라인 도구 — 계산기, 변환기, 생성기 등. 가입 불필요, 설치 불필요, 바로 사용 가능."
+  },
+  "nav": {
+    "home": "홈",
+    "tools": "도구",
+    "about": "소개",
+    "contact": "문의",
+    "privacy": "개인정보",
+    "blog": "블로그"
+  },
+  "home": {
+    "hero_title": "일상에 필요한 무료 도구",
+    "hero_subtitle": "계산기, 변환기, 생성기 — 한 곳에 모았습니다. 가입 없이 바로 사용하세요.",
+    "section_popular": "인기 도구",
+    "section_categories": "카테고리로 찾기",
+    "section_new": "새로 추가된 도구",
+    "cta_browse_all": "모든 도구 보기"
+  },
+  "categories": {
+    "calculators": "계산기",
+    "converters": "변환기",
+    "generators": "생성기",
+    "text": "텍스트 도구",
+    "image": "이미지 도구",
+    "health": "건강 & 라이프스타일",
+    "finance": "금융",
+    "developer": "개발자 도구"
+  },
+  "common": {
+    "copy": "복사",
+    "copied": "복사됨!",
+    "reset": "초기화",
+    "calculate": "계산",
+    "result": "결과",
+    "loading": "로딩 중...",
+    "share": "공유",
+    "download": "다운로드",
+    "save": "저장",
+    "language": "언어"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "♡ 으로 만들었습니다"
+  }
+}

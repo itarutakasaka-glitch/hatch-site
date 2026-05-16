@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "Tous vos outils quotidiens en un seul endroit",
+    "description": "Outils en ligne gratuits pour les tâches quotidiennes : calculatrices, convertisseurs, générateurs et plus encore. Sans inscription, sans installation, à utiliser directement."
+  },
+  "nav": {
+    "home": "Accueil",
+    "tools": "Outils",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Outils gratuits pour vos besoins quotidiens",
+    "hero_subtitle": "Calculatrices, convertisseurs, générateurs — tout en un seul endroit, sans inscription.",
+    "section_popular": "Outils populaires",
+    "section_categories": "Parcourir par catégorie",
+    "section_new": "Récemment ajoutés",
+    "cta_browse_all": "Voir tous les outils"
+  },
+  "categories": {
+    "calculators": "Calculatrices",
+    "converters": "Convertisseurs",
+    "generators": "Générateurs",
+    "text": "Outils de texte",
+    "image": "Outils d'image",
+    "health": "Santé et bien-être",
+    "finance": "Finance",
+    "developer": "Outils de développeur"
+  },
+  "common": {
+    "copy": "Copier",
+    "copied": "Copié !",
+    "reset": "Réinitialiser",
+    "calculate": "Calculer",
+    "result": "Résultat",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "download": "Télécharger",
+    "save": "Enregistrer",
+    "language": "Langue"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "Fait avec ♡"
+  }
+}

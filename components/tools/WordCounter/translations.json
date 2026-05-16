@@ -1,0 +1,82 @@
+{
+  "en": {
+    "placeholder": "Paste or type your text here...",
+    "words": "Words",
+    "characters": "Characters",
+    "characters_no_spaces": "Characters (no spaces)",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "reading_time": "Reading time",
+    "reading_time_minutes": "min"
+  },
+  "ja": {
+    "placeholder": "ここにテキストを貼り付けるか入力...",
+    "words": "単語数",
+    "characters": "文字数",
+    "characters_no_spaces": "文字数(空白除く)",
+    "sentences": "文の数",
+    "paragraphs": "段落数",
+    "reading_time": "読了時間",
+    "reading_time_minutes": "分"
+  },
+  "es": {
+    "placeholder": "Pega o escribe tu texto aquí...",
+    "words": "Palabras",
+    "characters": "Caracteres",
+    "characters_no_spaces": "Caracteres (sin espacios)",
+    "sentences": "Oraciones",
+    "paragraphs": "Párrafos",
+    "reading_time": "Tiempo de lectura",
+    "reading_time_minutes": "min"
+  },
+  "pt-BR": {
+    "placeholder": "Cole ou digite seu texto aqui...",
+    "words": "Palavras",
+    "characters": "Caracteres",
+    "characters_no_spaces": "Caracteres (sem espaços)",
+    "sentences": "Frases",
+    "paragraphs": "Parágrafos",
+    "reading_time": "Tempo de leitura",
+    "reading_time_minutes": "min"
+  },
+  "fr": {
+    "placeholder": "Collez ou tapez votre texte ici...",
+    "words": "Mots",
+    "characters": "Caractères",
+    "characters_no_spaces": "Caractères (sans espaces)",
+    "sentences": "Phrases",
+    "paragraphs": "Paragraphes",
+    "reading_time": "Temps de lecture",
+    "reading_time_minutes": "min"
+  },
+  "de": {
+    "placeholder": "Text hier einfügen oder eingeben...",
+    "words": "Wörter",
+    "characters": "Zeichen",
+    "characters_no_spaces": "Zeichen (ohne Leerzeichen)",
+    "sentences": "Sätze",
+    "paragraphs": "Absätze",
+    "reading_time": "Lesezeit",
+    "reading_time_minutes": "Min."
+  },
+  "ko": {
+    "placeholder": "텍스트를 붙여넣거나 입력하세요...",
+    "words": "단어",
+    "characters": "글자",
+    "characters_no_spaces": "글자 (공백 제외)",
+    "sentences": "문장",
+    "paragraphs": "단락",
+    "reading_time": "읽는 시간",
+    "reading_time_minutes": "분"
+  },
+  "zh-CN": {
+    "placeholder": "在此粘贴或输入文本...",
+    "words": "单词",
+    "characters": "字符",
+    "characters_no_spaces": "字符 (不含空格)",
+    "sentences": "句子",
+    "paragraphs": "段落",
+    "reading_time": "阅读时间",
+    "reading_time_minutes": "分钟"
+  }
+}

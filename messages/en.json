@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Pocketools",
+    "tagline": "All your daily tools in one place",
+    "description": "Free online tools for everyday tasks — calculators, converters, generators, and more. No signup, no install, just use."
+  },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Free tools for your daily needs",
+    "hero_subtitle": "Calculators, converters, generators — all in one place, no signup required.",
+    "section_popular": "Popular tools",
+    "section_categories": "Browse by category",
+    "section_new": "Recently added",
+    "cta_browse_all": "Browse all tools"
+  },
+  "categories": {
+    "calculators": "Calculators",
+    "converters": "Converters",
+    "generators": "Generators",
+    "text": "Text tools",
+    "image": "Image tools",
+    "health": "Health & lifestyle",
+    "finance": "Finance",
+    "developer": "Developer tools"
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "reset": "Reset",
+    "calculate": "Calculate",
+    "result": "Result",
+    "loading": "Loading...",
+    "share": "Share",
+    "download": "Download",
+    "save": "Save",
+    "language": "Language"
+  },
+  "footer": {
+    "copyright": "© 2026 Pocketools",
+    "made_with": "Made with ♡"
+  }
+}
