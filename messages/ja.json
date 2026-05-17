@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Pocketools",
+    "name": "Blue Tanuki",
     "tagline": "毎日使える便利ツール集",
     "description": "計算機・変換ツール・ジェネレーターなど、日常で使えるオンラインツールを無料で提供。登録不要、インストール不要、開いてすぐ使える。"
   },
@@ -43,7 +43,7 @@
     "language": "言語"
   },
   "footer": {
-    "copyright": "© 2026 Pocketools",
+    "copyright": "© 2026 Blue Tanuki",
     "made_with": "Made with ♡"
   }
 }

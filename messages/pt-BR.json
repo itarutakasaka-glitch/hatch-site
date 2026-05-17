@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Pocketools",
+    "name": "Blue Tanuki",
     "tagline": "Todas as suas ferramentas do dia a dia em um só lugar",
     "description": "Ferramentas online gratuitas para tarefas do dia a dia: calculadoras, conversores, geradores e muito mais. Sem cadastro, sem instalação, é só usar."
   },
@@ -43,7 +43,7 @@
     "language": "Idioma"
   },
   "footer": {
-    "copyright": "© 2026 Pocketools",
+    "copyright": "© 2026 Blue Tanuki",
     "made_with": "Feito com ♡"
   }
 }

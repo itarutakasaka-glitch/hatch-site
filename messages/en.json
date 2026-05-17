@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Pocketools",
+    "name": "Blue Tanuki",
     "tagline": "All your daily tools in one place",
     "description": "Free online tools for everyday tasks — calculators, converters, generators, and more. No signup, no install, just use."
   },
@@ -43,7 +43,7 @@
     "language": "Language"
   },
   "footer": {
-    "copyright": "© 2026 Pocketools",
+    "copyright": "© 2026 Blue Tanuki",
     "made_with": "Made with ♡"
   }
 }

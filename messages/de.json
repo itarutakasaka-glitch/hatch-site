@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Pocketools",
+    "name": "Blue Tanuki",
     "tagline": "Alle deine alltäglichen Tools an einem Ort",
     "description": "Kostenlose Online-Tools für den Alltag — Rechner, Konverter, Generatoren und mehr. Keine Anmeldung, keine Installation, einfach loslegen."
   },
@@ -43,7 +43,7 @@
     "language": "Sprache"
   },
   "footer": {
-    "copyright": "© 2026 Pocketools",
+    "copyright": "© 2026 Blue Tanuki",
     "made_with": "Mit ♡ gemacht"
   }
 }

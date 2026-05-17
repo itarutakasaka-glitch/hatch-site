@@ -1,4 +1,4 @@
-# Pocketools / hatch-site
+# Blue Tanuki / hatch-site
 
 Multi-language tool site, the foundation of the Hatch agent project.
 
