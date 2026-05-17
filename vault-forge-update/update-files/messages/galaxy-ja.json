@@ -1,0 +1,39 @@
+{
+  "galaxy": {
+    "tagline": "ビジネスマンのための、便利ツール百貨店",
+    "footnote": "Blue Tanuki は 5 つのジャンルから成る便利ツールの銀河です。中央の青タヌキをクリックすると、サイトの説明ページへ。",
+
+    "vital": {
+      "name": "Vital",
+      "desc": "健康と自己管理",
+      "tools": {
+        "bmi": "BMI計算"
+      }
+    },
+    "parchment": {
+      "name": "Parchment",
+      "desc": "文書とテキスト",
+      "tools": {
+        "wordCounter": "文字数カウンター"
+      }
+    },
+    "signal": {
+      "name": "Signal",
+      "desc": "業務効率ツール",
+      "tools": {
+        "qrCode": "QRコード生成"
+      }
+    },
+    "vault": {
+      "name": "Vault",
+      "desc": "お金と経営計算",
+      "tools": {
+        "salary": "給与手取り計算"
+      }
+    },
+    "forge": {
+      "name": "Forge",
+      "desc": "AIエージェント銀行"
+    }
+  }
+}
