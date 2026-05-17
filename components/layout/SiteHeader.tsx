@@ -50,7 +50,7 @@ export default async function SiteHeader() {
           </Link>
         </nav>
 
-        <LanguageSwitcher currentLocale={locale} />
+        <LanguageSwitcher />
       </div>
     </header>
   );

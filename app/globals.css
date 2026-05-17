@@ -1032,3 +1032,480 @@ textarea.input {
   color: var(--vault-paper-stationery);
 }
 
+
+
+/* === GALAXY + LANG SWITCHER === */
+
+
+
+/* === GALAXY + LANG SWITCHER === */
+
+/* ============================================
+ * GALAXY HUB & LANGUAGE SWITCHER
+ * ============================================ */
+
+/* === Galaxy Hub === */
+.galaxy-main {
+  --galaxy-bg-0: #050810;
+  --galaxy-bg-1: #0A0F1F;
+  --galaxy-bg-2: #131A2E;
+  --galaxy-ink: #F5F7FF;
+  --galaxy-ink-2: rgba(245, 247, 255, 0.7);
+  --galaxy-ink-3: rgba(245, 247, 255, 0.5);
+  --galaxy-ink-4: rgba(245, 247, 255, 0.3);
+  --galaxy-blue: #5EA8FF;
+  --galaxy-blue-glow: rgba(94, 168, 255, 0.4);
+
+  position: relative;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 30%, rgba(94, 168, 255, 0.12), transparent 70%),
+    radial-gradient(ellipse 40% 30% at 80% 70%, rgba(255, 107, 53, 0.06), transparent 70%),
+    radial-gradient(ellipse 40% 30% at 20% 70%, rgba(184, 146, 61, 0.06), transparent 70%),
+    var(--galaxy-bg-0);
+  color: var(--galaxy-ink);
+  overflow: hidden;
+  margin: -2rem -1rem -4rem;
+  padding: 2rem 1rem 4rem;
+}
+
+/* Starfield */
+.galaxy-stars {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 23% 17%, white, transparent),
+    radial-gradient(1px 1px at 67% 41%, white, transparent),
+    radial-gradient(1px 1px at 41% 73%, white, transparent),
+    radial-gradient(1.5px 1.5px at 84% 23%, white, transparent),
+    radial-gradient(1px 1px at 12% 82%, white, transparent),
+    radial-gradient(1px 1px at 91% 64%, white, transparent),
+    radial-gradient(1.5px 1.5px at 35% 91%, white, transparent),
+    radial-gradient(1px 1px at 58% 8%, white, transparent),
+    radial-gradient(1px 1px at 8% 51%, white, transparent),
+    radial-gradient(1.5px 1.5px at 72% 88%, white, transparent),
+    radial-gradient(1px 1px at 47% 32%, rgba(94, 168, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 88% 47%, rgba(255, 200, 180, 0.6), transparent);
+  pointer-events: none;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.galaxy-wrap {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.galaxy-header {
+  text-align: center;
+  padding: 48px 0 32px;
+}
+.galaxy-h1 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.galaxy-h1-pre {
+  display: block;
+  font-family: "Cormorant Garamond", "Playfair Display", serif;
+  font-style: italic;
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 400;
+  color: var(--galaxy-ink-2);
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+}
+.galaxy-h1-main {
+  display: block;
+  font-family: "Playfair Display", "Cormorant Garamond", serif;
+  font-size: clamp(48px, 9vw, 96px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  background: linear-gradient(135deg, #fff 0%, #5EA8FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.galaxy-tagline {
+  font-family: "Noto Serif JP", "Cormorant Garamond", serif;
+  font-size: clamp(15px, 1.6vw, 18px);
+  color: var(--galaxy-ink-2);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Stage */
+.galaxy-stage {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 64px;
+}
+.galaxy-orbit-wrap {
+  position: relative;
+  width: 640px;
+  height: 640px;
+  max-width: 95vw;
+  max-height: 95vw;
+}
+.galaxy-orbit {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  animation: galaxy-rotate 240s linear infinite;
+}
+@keyframes galaxy-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Central tanuki */
+.galaxy-tanuki {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  line-height: 0;
+  filter: drop-shadow(0 0 24px rgba(94, 168, 255, 0.5));
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+.galaxy-tanuki:hover {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+.galaxy-tanuki svg {
+  width: clamp(96px, 14vw, 140px);
+  height: auto;
+}
+
+/* Planets */
+.galaxy-planet {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.galaxy-planet-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--galaxy-ink);
+  transition: transform 0.25s ease;
+}
+.galaxy-planet:hover .galaxy-planet-link {
+  transform: scale(1.08);
+}
+.galaxy-planet-orb {
+  width: clamp(68px, 9vw, 88px);
+  height: clamp(68px, 9vw, 88px);
+  border-radius: 50%;
+  position: relative;
+  transition: box-shadow 0.25s ease;
+}
+.galaxy-planet.is-coming-soon .galaxy-planet-orb {
+  opacity: 0.55;
+}
+.galaxy-soon-tag {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: white;
+  text-transform: lowercase;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2px 8px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+.galaxy-planet-label {
+  margin-top: 12px;
+  text-align: center;
+  opacity: 0.92;
+  transition: opacity 0.25s ease;
+}
+.galaxy-planet:hover .galaxy-planet-label {
+  opacity: 1;
+}
+.galaxy-planet-name {
+  display: block;
+  font-family: "Playfair Display", "Cormorant Garamond", serif;
+  font-size: clamp(16px, 1.8vw, 19px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--galaxy-ink);
+  margin-bottom: 2px;
+}
+.galaxy-planet-desc {
+  display: block;
+  font-family: "Noto Serif JP", "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: clamp(11px, 1.2vw, 12.5px);
+  color: var(--galaxy-ink-3);
+  white-space: nowrap;
+}
+
+/* Tools list (mobile fallback / SEO) */
+.galaxy-tools-list {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(94, 168, 255, 0.15);
+}
+.galaxy-tools-h {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--galaxy-ink-2);
+  text-align: center;
+  margin: 0 0 28px;
+  text-transform: uppercase;
+}
+.galaxy-tools-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+@media (min-width: 720px) {
+  .galaxy-tools-grid { grid-template-columns: 1fr 1fr; }
+}
+.galaxy-tool-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  background: rgba(94, 168, 255, 0.06);
+  border: 1px solid rgba(94, 168, 255, 0.15);
+  border-radius: 14px;
+  text-decoration: none;
+  color: var(--galaxy-ink);
+  transition: all 0.2s ease;
+}
+.galaxy-tool-card:hover {
+  background: rgba(94, 168, 255, 0.1);
+  border-color: rgba(94, 168, 255, 0.35);
+  transform: translateY(-2px);
+}
+.galaxy-tool-orb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 12px currentColor;
+}
+.galaxy-tool-genre {
+  font-family: "Playfair Display", serif;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: var(--galaxy-ink-3);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.galaxy-tool-name {
+  font-family: "Noto Serif JP", serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--galaxy-ink);
+}
+.galaxy-tool-arrow {
+  margin-left: auto;
+  color: var(--galaxy-ink-3);
+  flex-shrink: 0;
+}
+
+.galaxy-footnote {
+  margin-top: 48px;
+  text-align: center;
+  font-family: "Noto Serif JP", serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--galaxy-ink-4);
+  line-height: 1.7;
+  padding: 0 24px;
+}
+
+/* === Language Switcher === */
+.lang-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 100px;
+  color: inherit;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.lang-trigger:hover {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.22);
+}
+.lang-trigger:focus-visible {
+  outline: 2px solid #5EA8FF;
+  outline-offset: 2px;
+}
+
+/* On dark backgrounds (galaxy-main) */
+.galaxy-main .lang-trigger,
+[data-theme="dark"] .lang-trigger {
+  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--galaxy-ink);
+}
+.galaxy-main .lang-trigger:hover,
+[data-theme="dark"] .lang-trigger:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.lang-trigger-label {
+  font-weight: 500;
+}
+.lang-chev {
+  transition: transform 0.2s ease;
+  opacity: 0.6;
+}
+.lang-chev-open {
+  transform: rotate(180deg);
+}
+
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 280px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+  z-index: 100;
+  overflow: hidden;
+  animation: lang-pop 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+@keyframes lang-pop {
+  from { opacity: 0; transform: translateY(-8px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.galaxy-main .lang-menu,
+[data-theme="dark"] .lang-menu {
+  background: #1A2030;
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.6),
+    0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.lang-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  color: rgba(0, 0, 0, 0.5);
+}
+.galaxy-main .lang-search,
+[data-theme="dark"] .lang-search {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.5);
+}
+.lang-search input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 13px;
+  color: inherit;
+}
+.lang-search input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.galaxy-main .lang-search input::placeholder,
+[data-theme="dark"] .lang-search input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.lang-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.lang-empty {
+  padding: 14px 16px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.galaxy-main .lang-empty,
+[data-theme="dark"] .lang-empty {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.lang-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: background 0.1s ease;
+  color: inherit;
+}
+.lang-item:hover {
+  background: rgba(94, 168, 255, 0.08);
+}
+.galaxy-main .lang-item:hover,
+[data-theme="dark"] .lang-item:hover {
+  background: rgba(94, 168, 255, 0.16);
+}
+.lang-native {
+  font-size: 14px;
+  font-weight: 500;
+  color: inherit;
+}
+.lang-english {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: 8px;
+}
+.galaxy-main .lang-english,
+[data-theme="dark"] .lang-english {
+  color: rgba(255, 255, 255, 0.5);
+}
+.lang-item-current .lang-native {
+  font-weight: 700;
+  color: #5EA8FF;
+}
+.galaxy-main .lang-item-current .lang-native,
+[data-theme="dark"] .lang-item-current .lang-native {
+  color: #5EA8FF;
+}
+.lang-check {
+  color: #5EA8FF;
+  flex-shrink: 0;
+}
+
