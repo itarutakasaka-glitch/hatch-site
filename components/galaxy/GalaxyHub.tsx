@@ -139,8 +139,12 @@ export default function GalaxyHub({ locale }: { locale: string }) {
             {/* Planets with float animation */}
             {GENRES.map((genre) => {
               const rad = (genre.angle * Math.PI) / 180;
-              const x = 50 + (Math.cos(rad) * 240) / 6.4;
-              const y = 50 + (Math.sin(rad) * 240) / 6.4;
+              // Round to a fixed precision so the inline-style strings are
+              // byte-identical between SSR (Node V8) and client (browser V8).
+              // Math.cos/sin can differ by 1 ULP across V8 builds, which would
+              // otherwise produce a React hydration mismatch on these planets.
+              const x = (50 + (Math.cos(rad) * 240) / 6.4).toFixed(4);
+              const y = (50 + (Math.sin(rad) * 240) / 6.4).toFixed(4);
               const href = genre.comingSoon
                 ? `${localePrefix}/#${genre.id}`
                 : `${localePrefix}/tools/${genre.toolSlug}`;
