@@ -277,6 +277,12 @@ zip 展開後に残った `vault-forge-update/`, `vault-v2/`, `galaxy-update/`, 
 **症状**: `Copy-Item` で `app\[locale]\page.tsx` に上書きしたつもりが、ワイルドカード解釈で別の場所に書き込まれていた。`page.tsx` が古いままで、銀河ハブが表示されない。  
 **対処**: `[System.IO.File]::WriteAllText("$pwd\app\[locale]\page.tsx", ..., utf8NoBom)` を直接使う。書き込み後は必ず先頭バイトを読み直して中身を確認する。
 
+### 失敗7: GalaxyHub の SSR ハイドレーション不一致(2026/06/10 修正)
+**症状**: dev で左下に「1 Issue」バッジ。console に React hydration mismatch。`GalaxyHub.tsx` の惑星 `left`/`top` がサーバー(`85.6646%`)とクライアント(`85.66461936106825%`)で食い違う。本番でも該当サブツリーが client 再レンダリングに落ちる(無音)。
+**原因**: 惑星位置を `50 + Math.cos(rad)*240/6.4` の**全精度の float**のまま inline style に出していた。`Math.cos`/`Math.sin` は V8 ビルド間で最終 ULP が一致する保証がなく、Node(SSR)と ブラウザで文字列が変わる。星は seeded 乱数(純粋な四則演算)なので一致していた=transcendental だけが犯人。
+**対処**: `.toFixed(4)` で固定桁に丸めて両側を byte 一致させる(`components/galaxy/GalaxyHub.tsx` 142-143 行)。
+**教訓**: inline style に出す数値で `Math.cos/sin/tan/sqrt` 等の超越関数を使うときは必ず固定桁に丸める。`Date.now()`/`Math.random()` だけでなく ULP 差もハイドレーション不一致の原因になる。
+
 ---
 
 ## 9. デザイン世界観
